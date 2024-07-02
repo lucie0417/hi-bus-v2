@@ -1,4 +1,4 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import routeData from '../data/route.json';
 import cityData from '../data/cityDistrict.json';
@@ -15,8 +15,8 @@ import {
 
 const SearchBar = () => {
 	const panelData: string[] = ['紅', '綠', '橘', '藍', '棕', '黃', 'F', 'R', 'T', '幹線', '先導', '內科', '貓空', '市民', '南軟', '跳蛙', '夜間', '小'];
-	const [matchRoute, setMatchRoute] = useState(false);
-	const [openPanel, setOpenPanel] = useState(false);
+	const matchRoute = false;
+	const openPanel = false;
 
 
 
