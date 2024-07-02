@@ -1,0 +1,803 @@
+[
+	{
+		"RouteUID": "TPE10132",
+		"RouteID": "10132",
+		"HasSubRoutes": true,
+		"Operators": [
+			{
+				"OperatorID": "100",
+				"OperatorName": {
+					"Zh_tw": "臺北客運",
+					"En": "Taipei Bus Co., Ltd."
+				},
+				"OperatorCode": "TaipeiBus",
+				"OperatorNo": "1407"
+			}
+		],
+		"AuthorityID": "004",
+		"ProviderID": "045",
+		"SubRoutes": [
+			{
+				"SubRouteUID": "TPE101320",
+				"SubRouteID": "101320",
+				"OperatorIDs": [
+					"100"
+				],
+				"SubRouteName": {
+					"Zh_tw": "234",
+					"En": "234"
+				},
+				"Direction": 0,
+				"FirstBusTime": "0510",
+				"LastBusTime": "2220",
+				"HolidayFirstBusTime": "0510",
+				"HolidayLastBusTime": "2220"
+			},
+			{
+				"SubRouteUID": "TPE101320",
+				"SubRouteID": "101320",
+				"OperatorIDs": [
+					"100"
+				],
+				"SubRouteName": {
+					"Zh_tw": "234",
+					"En": "234"
+				},
+				"Direction": 1,
+				"FirstBusTime": "0510",
+				"LastBusTime": "2220",
+				"HolidayFirstBusTime": "0510",
+				"HolidayLastBusTime": "2220"
+			}
+		],
+		"BusRouteType": 11,
+		"RouteName": {
+			"Zh_tw": "234",
+			"En": "234"
+		},
+		"DepartureStopNameZh": "板橋",
+		"DepartureStopNameEn": "Banqiao",
+		"DestinationStopNameZh": "西門",
+		"DestinationStopNameEn": "Ximen",
+		"TicketPriceDescriptionZh": "一段票",
+		"TicketPriceDescriptionEn": "1 segment",
+		"RouteMapImageUrl": "https://ebus.gov.taipei/MapOverview?nid=0100023400",
+		"City": "Taipei",
+		"CityCode": "TPE",
+		"UpdateTime": "2024-06-16T13:34:20+08:00",
+		"VersionID": 3532
+	},
+	{
+		"RouteUID": "TPE10142",
+		"RouteID": "10142",
+		"HasSubRoutes": true,
+		"Operators": [
+			{
+				"OperatorID": "100",
+				"OperatorName": {
+					"Zh_tw": "臺北客運",
+					"En": "Taipei Bus Co., Ltd."
+				},
+				"OperatorCode": "TaipeiBus",
+				"OperatorNo": "1407"
+			}
+		],
+		"AuthorityID": "004",
+		"ProviderID": "045",
+		"SubRoutes": [
+			{
+				"SubRouteUID": "TPE10142",
+				"SubRouteID": "10142",
+				"OperatorIDs": [
+					"100"
+				],
+				"SubRouteName": {
+					"Zh_tw": "綠1調度站發車",
+					"En": "G1"
+				},
+				"Direction": 0,
+				"FirstBusTime": "0525",
+				"LastBusTime": "2230",
+				"HolidayFirstBusTime": "0525",
+				"HolidayLastBusTime": "2230"
+			},
+			{
+				"SubRouteUID": "TPE10142",
+				"SubRouteID": "10142",
+				"OperatorIDs": [
+					"100"
+				],
+				"SubRouteName": {
+					"Zh_tw": "綠1調度站發車",
+					"En": "G1"
+				},
+				"Direction": 1,
+				"FirstBusTime": "0525",
+				"LastBusTime": "2230",
+				"HolidayFirstBusTime": "0525",
+				"HolidayLastBusTime": "2230"
+			},
+			{
+				"SubRouteUID": "TPE157758",
+				"SubRouteID": "157758",
+				"OperatorIDs": [
+					"100"
+				],
+				"SubRouteName": {
+					"Zh_tw": "綠1捷運新店站發車",
+					"En": "G1"
+				},
+				"Direction": 0,
+				"FirstBusTime": "0525",
+				"LastBusTime": "2230",
+				"HolidayFirstBusTime": "0525",
+				"HolidayLastBusTime": "2230"
+			},
+			{
+				"SubRouteUID": "TPE157758",
+				"SubRouteID": "157758",
+				"OperatorIDs": [
+					"100"
+				],
+				"SubRouteName": {
+					"Zh_tw": "綠1捷運新店站發車",
+					"En": "G1"
+				},
+				"Direction": 1,
+				"FirstBusTime": "0525",
+				"LastBusTime": "2230",
+				"HolidayFirstBusTime": "0525",
+				"HolidayLastBusTime": "2230"
+			}
+		],
+		"BusRouteType": 11,
+		"RouteName": {
+			"Zh_tw": "綠1",
+			"En": "G1"
+		},
+		"DepartureStopNameZh": "新店",
+		"DepartureStopNameEn": "Xindian",
+		"DestinationStopNameZh": "臺北市政府",
+		"DestinationStopNameEn": "Taipei City Hall",
+		"TicketPriceDescriptionZh": "兩段票",
+		"TicketPriceDescriptionEn": "2 segments",
+		"FareBufferZoneDescriptionZh": "景美女中-石壁坑",
+		"RouteMapImageUrl": "https://ebus.gov.taipei/MapOverview?nid=0113000100",
+		"City": "Taipei",
+		"CityCode": "TPE",
+		"UpdateTime": "2024-06-16T13:34:20+08:00",
+		"VersionID": 3532
+	},
+	{
+		"RouteUID": "TPE10181",
+		"RouteID": "10181",
+		"HasSubRoutes": true,
+		"Operators": [
+			{
+				"OperatorID": "100",
+				"OperatorName": {
+					"Zh_tw": "臺北客運",
+					"En": "Taipei Bus Co., Ltd."
+				},
+				"OperatorCode": "TaipeiBus",
+				"OperatorNo": "1407"
+			}
+		],
+		"AuthorityID": "004",
+		"ProviderID": "045",
+		"SubRoutes": [
+			{
+				"SubRouteUID": "TPE101810",
+				"SubRouteID": "101810",
+				"OperatorIDs": [
+					"100"
+				],
+				"SubRouteName": {
+					"Zh_tw": "205",
+					"En": "205"
+				},
+				"Direction": 0,
+				"FirstBusTime": "0530",
+				"LastBusTime": "2210",
+				"HolidayFirstBusTime": "0530",
+				"HolidayLastBusTime": "2210"
+			},
+			{
+				"SubRouteUID": "TPE101810",
+				"SubRouteID": "101810",
+				"OperatorIDs": [
+					"100"
+				],
+				"SubRouteName": {
+					"Zh_tw": "205",
+					"En": "205"
+				},
+				"Direction": 1,
+				"FirstBusTime": "0530",
+				"LastBusTime": "2210",
+				"HolidayFirstBusTime": "0530",
+				"HolidayLastBusTime": "2210"
+			}
+		],
+		"BusRouteType": 11,
+		"RouteName": {
+			"Zh_tw": "205",
+			"En": "205"
+		},
+		"DepartureStopNameZh": "中華科技大學",
+		"DepartureStopNameEn": "China University of Science and Tec.",
+		"DestinationStopNameZh": "東園",
+		"DestinationStopNameEn": "Dongyuan",
+		"TicketPriceDescriptionZh": "兩段票",
+		"TicketPriceDescriptionEn": "2 segments",
+		"FareBufferZoneDescriptionZh": "玉成國小－饒河街觀光夜市(八德)",
+		"FareBufferZoneDescriptionEn": "Yucheng Elementary School－Raohe St. Tourist Market(Bade)",
+		"RouteMapImageUrl": "https://ebus.gov.taipei/MapOverview?nid=0100020500",
+		"City": "Taipei",
+		"CityCode": "TPE",
+		"UpdateTime": "2024-06-16T13:34:20+08:00",
+		"VersionID": 3532
+	},
+	{
+		"RouteUID": "TPE10221",
+		"RouteID": "10221",
+		"HasSubRoutes": true,
+		"Operators": [
+			{
+				"OperatorID": "200",
+				"OperatorName": {
+					"Zh_tw": "首都客運",
+					"En": "Capital Bus Co., Ltd."
+				},
+				"OperatorCode": "CapitalBus",
+				"OperatorNo": "0913"
+			}
+		],
+		"AuthorityID": "004",
+		"ProviderID": "045",
+		"SubRoutes": [
+			{
+				"SubRouteUID": "TPE102210",
+				"SubRouteID": "102210",
+				"OperatorIDs": [
+					"200"
+				],
+				"SubRouteName": {
+					"Zh_tw": "618",
+					"En": "618"
+				},
+				"Direction": 0,
+				"FirstBusTime": "0600",
+				"LastBusTime": "1445"
+			},
+			{
+				"SubRouteUID": "TPE102210",
+				"SubRouteID": "102210",
+				"OperatorIDs": [
+					"200"
+				],
+				"SubRouteName": {
+					"Zh_tw": "618",
+					"En": "618"
+				},
+				"Direction": 1,
+				"FirstBusTime": "0600",
+				"LastBusTime": "1445"
+			},
+			{
+				"SubRouteUID": "TPE161798",
+				"SubRouteID": "161798",
+				"OperatorIDs": [
+					"200"
+				],
+				"SubRouteName": {
+					"Zh_tw": "618預約公車(停駛)",
+					"En": "618"
+				},
+				"Direction": 0,
+				"FirstBusTime": "0600",
+				"LastBusTime": "1445"
+			},
+			{
+				"SubRouteUID": "TPE161798",
+				"SubRouteID": "161798",
+				"OperatorIDs": [
+					"200"
+				],
+				"SubRouteName": {
+					"Zh_tw": "618預約公車(停駛)",
+					"En": "618"
+				},
+				"Direction": 1,
+				"FirstBusTime": "0600",
+				"LastBusTime": "1445"
+			}
+		],
+		"BusRouteType": 11,
+		"RouteName": {
+			"Zh_tw": "618",
+			"En": "618"
+		},
+		"DepartureStopNameZh": "新莊",
+		"DepartureStopNameEn": "Xinzhuang",
+		"DestinationStopNameZh": "士林",
+		"DestinationStopNameEn": "Shilin",
+		"TicketPriceDescriptionZh": "兩段票",
+		"TicketPriceDescriptionEn": "2 segments",
+		"FareBufferZoneDescriptionZh": "(往)新北大道中興路口－捷運民權西路站  (返)民權大龍街口－新北大道重光街口",
+		"FareBufferZoneDescriptionEn": "(Go)New Taipei Blvd and Zhongxing Rd Entrance－MRT Minquan W. Rd. (Back)Minquan & Dalong Roads-New Taipei Blvd and Huacheng Rd Entrance",
+		"RouteMapImageUrl": "https://ebus.gov.taipei/MapOverview?nid=0100061800",
+		"City": "Taipei",
+		"CityCode": "TPE",
+		"UpdateTime": "2024-06-16T13:34:20+08:00",
+		"VersionID": 3532
+	},
+	{
+		"RouteUID": "TPE10231",
+		"RouteID": "10231",
+		"HasSubRoutes": true,
+		"Operators": [
+			{
+				"OperatorID": "200",
+				"OperatorName": {
+					"Zh_tw": "首都客運",
+					"En": "Capital Bus Co., Ltd."
+				},
+				"OperatorCode": "CapitalBus",
+				"OperatorNo": "0913"
+			}
+		],
+		"AuthorityID": "004",
+		"ProviderID": "045",
+		"SubRoutes": [
+			{
+				"SubRouteUID": "TPE10231",
+				"SubRouteID": "10231",
+				"OperatorIDs": [
+					"200"
+				],
+				"SubRouteName": {
+					"Zh_tw": "民權幹線",
+					"En": "Minquan Metro Bus"
+				},
+				"Direction": 0,
+				"FirstBusTime": "0540",
+				"LastBusTime": "2340",
+				"HolidayFirstBusTime": "0540",
+				"HolidayLastBusTime": "2340"
+			},
+			{
+				"SubRouteUID": "TPE10231",
+				"SubRouteID": "10231",
+				"OperatorIDs": [
+					"200"
+				],
+				"SubRouteName": {
+					"Zh_tw": "民權幹線",
+					"En": "Minquan Metro Bus"
+				},
+				"Direction": 1,
+				"FirstBusTime": "0540",
+				"LastBusTime": "2340",
+				"HolidayFirstBusTime": "0540",
+				"HolidayLastBusTime": "2340"
+			}
+		],
+		"BusRouteType": 11,
+		"RouteName": {
+			"Zh_tw": "民權幹線",
+			"En": "Minquan Metro Bus"
+		},
+		"DepartureStopNameZh": "南港",
+		"DepartureStopNameEn": "Nangang",
+		"DestinationStopNameZh": "臺北橋",
+		"DestinationStopNameEn": "Taipei Bridge",
+		"TicketPriceDescriptionZh": "一段票",
+		"TicketPriceDescriptionEn": "1 segment",
+		"RouteMapImageUrl": "https://ebus.gov.taipei/MapOverview?nid=0161001300",
+		"City": "Taipei",
+		"CityCode": "TPE",
+		"UpdateTime": "2024-06-16T13:34:20+08:00",
+		"VersionID": 3532
+	},
+	{
+		"RouteUID": "TPE10232",
+		"RouteID": "10232",
+		"HasSubRoutes": true,
+		"Operators": [
+			{
+				"OperatorID": "200",
+				"OperatorName": {
+					"Zh_tw": "首都客運",
+					"En": "Capital Bus Co., Ltd."
+				},
+				"OperatorCode": "CapitalBus",
+				"OperatorNo": "0913"
+			}
+		],
+		"AuthorityID": "004",
+		"ProviderID": "045",
+		"SubRoutes": [
+			{
+				"SubRouteUID": "TPE102320",
+				"SubRouteID": "102320",
+				"OperatorIDs": [
+					"200"
+				],
+				"SubRouteName": {
+					"Zh_tw": "紅25",
+					"En": "R25"
+				},
+				"Direction": 0,
+				"FirstBusTime": "0550",
+				"LastBusTime": "2200",
+				"HolidayFirstBusTime": "0700",
+				"HolidayLastBusTime": "2130"
+			},
+			{
+				"SubRouteUID": "TPE102320",
+				"SubRouteID": "102320",
+				"OperatorIDs": [
+					"200"
+				],
+				"SubRouteName": {
+					"Zh_tw": "紅25",
+					"En": "R25"
+				},
+				"Direction": 1,
+				"FirstBusTime": "0550",
+				"LastBusTime": "2200",
+				"HolidayFirstBusTime": "0700",
+				"HolidayLastBusTime": "2130"
+			}
+		],
+		"BusRouteType": 11,
+		"RouteName": {
+			"Zh_tw": "紅25",
+			"En": "R25"
+		},
+		"DepartureStopNameZh": "南港",
+		"DepartureStopNameEn": "Nangang",
+		"DestinationStopNameZh": "捷運北門站",
+		"DestinationStopNameEn": "MRT Beimen Sta.",
+		"TicketPriceDescriptionZh": "一段票",
+		"TicketPriceDescriptionEn": "1 segment",
+		"RouteMapImageUrl": "https://ebus.gov.taipei/MapOverview?nid=0111002500",
+		"City": "Taipei",
+		"CityCode": "TPE",
+		"UpdateTime": "2024-06-16T13:34:20+08:00",
+		"VersionID": 3532
+	},
+	{
+		"RouteUID": "TPE10241",
+		"RouteID": "10241",
+		"HasSubRoutes": true,
+		"Operators": [
+			{
+				"OperatorID": "200",
+				"OperatorName": {
+					"Zh_tw": "首都客運",
+					"En": "Capital Bus Co., Ltd."
+				},
+				"OperatorCode": "CapitalBus",
+				"OperatorNo": "0913"
+			}
+		],
+		"AuthorityID": "004",
+		"ProviderID": "045",
+		"SubRoutes": [
+			{
+				"SubRouteUID": "TPE10241",
+				"SubRouteID": "10241",
+				"OperatorIDs": [
+					"200"
+				],
+				"SubRouteName": {
+					"Zh_tw": "藍36",
+					"En": "B36"
+				},
+				"Direction": 0,
+				"FirstBusTime": "0530",
+				"LastBusTime": "2355",
+				"HolidayFirstBusTime": "0530",
+				"HolidayLastBusTime": "2355"
+			},
+			{
+				"SubRouteUID": "TPE10241",
+				"SubRouteID": "10241",
+				"OperatorIDs": [
+					"200"
+				],
+				"SubRouteName": {
+					"Zh_tw": "藍36",
+					"En": "B36"
+				},
+				"Direction": 1,
+				"FirstBusTime": "0530",
+				"LastBusTime": "2355",
+				"HolidayFirstBusTime": "0530",
+				"HolidayLastBusTime": "2355"
+			},
+			{
+				"SubRouteUID": "TPE159927",
+				"SubRouteID": "159927",
+				"OperatorIDs": [
+					"200"
+				],
+				"SubRouteName": {
+					"Zh_tw": "藍36去程半",
+					"En": "B36"
+				},
+				"Direction": 0,
+				"FirstBusTime": "0530",
+				"LastBusTime": "2355",
+				"HolidayFirstBusTime": "0530",
+				"HolidayLastBusTime": "2355"
+			},
+			{
+				"SubRouteUID": "TPE159928",
+				"SubRouteID": "159928",
+				"OperatorIDs": [
+					"200"
+				],
+				"SubRouteName": {
+					"Zh_tw": "藍36返程半",
+					"En": "B36"
+				},
+				"Direction": 1,
+				"FirstBusTime": "0530",
+				"LastBusTime": "2355",
+				"HolidayFirstBusTime": "0530",
+				"HolidayLastBusTime": "2355"
+			}
+		],
+		"BusRouteType": 11,
+		"RouteName": {
+			"Zh_tw": "藍36",
+			"En": "BL36"
+		},
+		"DepartureStopNameZh": "汐止社后",
+		"DepartureStopNameEn": "Xizhi Shehou",
+		"DestinationStopNameZh": "捷運昆陽站",
+		"DestinationStopNameEn": "MRT Kunyang Sta.",
+		"TicketPriceDescriptionZh": "一段票",
+		"TicketPriceDescriptionEn": "1 segment",
+		"RouteMapImageUrl": "https://ebus.gov.taipei/MapOverview?nid=0112003600",
+		"City": "Taipei",
+		"CityCode": "TPE",
+		"UpdateTime": "2024-06-16T13:34:20+08:00",
+		"VersionID": 3532
+	},
+	{
+		"RouteUID": "TPE10251",
+		"RouteID": "10251",
+		"HasSubRoutes": true,
+		"Operators": [
+			{
+				"OperatorID": "200",
+				"OperatorName": {
+					"Zh_tw": "首都客運",
+					"En": "Capital Bus Co., Ltd."
+				},
+				"OperatorCode": "CapitalBus",
+				"OperatorNo": "0913"
+			}
+		],
+		"AuthorityID": "004",
+		"ProviderID": "045",
+		"SubRoutes": [
+			{
+				"SubRouteUID": "TPE10251",
+				"SubRouteID": "10251",
+				"OperatorIDs": [
+					"200"
+				],
+				"SubRouteName": {
+					"Zh_tw": "南京幹線",
+					"En": "Nanjing Metro Bus"
+				},
+				"Direction": 0,
+				"FirstBusTime": "0530",
+				"LastBusTime": "2300",
+				"HolidayFirstBusTime": "0550",
+				"HolidayLastBusTime": "2300"
+			},
+			{
+				"SubRouteUID": "TPE10251",
+				"SubRouteID": "10251",
+				"OperatorIDs": [
+					"200"
+				],
+				"SubRouteName": {
+					"Zh_tw": "南京幹線",
+					"En": "Nanjing Metro Bus"
+				},
+				"Direction": 1,
+				"FirstBusTime": "0530",
+				"LastBusTime": "2300",
+				"HolidayFirstBusTime": "0550",
+				"HolidayLastBusTime": "2300"
+			},
+			{
+				"SubRouteUID": "TPE159929",
+				"SubRouteID": "159929",
+				"OperatorIDs": [
+					"200"
+				],
+				"SubRouteName": {
+					"Zh_tw": "南京幹線去程半",
+					"En": "Nanjing Metro Bus"
+				},
+				"Direction": 0,
+				"FirstBusTime": "0530",
+				"LastBusTime": "2300",
+				"HolidayFirstBusTime": "0550",
+				"HolidayLastBusTime": "2300"
+			},
+			{
+				"SubRouteUID": "TPE159930",
+				"SubRouteID": "159930",
+				"OperatorIDs": [
+					"200"
+				],
+				"SubRouteName": {
+					"Zh_tw": "南京幹線返程半",
+					"En": "Nanjing Metro Bus"
+				},
+				"Direction": 1,
+				"FirstBusTime": "0530",
+				"LastBusTime": "2300",
+				"HolidayFirstBusTime": "0550",
+				"HolidayLastBusTime": "2300"
+			}
+		],
+		"BusRouteType": 11,
+		"RouteName": {
+			"Zh_tw": "南京幹線",
+			"En": "Nanjing Metro Bus"
+		},
+		"DepartureStopNameZh": "南港高工",
+		"DepartureStopNameEn": "Nangang Vocational High School",
+		"DestinationStopNameZh": "圓環",
+		"DestinationStopNameEn": "Taipei Circle",
+		"TicketPriceDescriptionZh": "一段票",
+		"TicketPriceDescriptionEn": "1 segment",
+		"RouteMapImageUrl": "https://ebus.gov.taipei/MapOverview?nid=0161001400",
+		"City": "Taipei",
+		"CityCode": "TPE",
+		"UpdateTime": "2024-06-16T13:34:20+08:00",
+		"VersionID": 3532
+	},
+	{
+		"RouteUID": "TPE10253",
+		"RouteID": "10253",
+		"HasSubRoutes": true,
+		"Operators": [
+			{
+				"OperatorID": "200",
+				"OperatorName": {
+					"Zh_tw": "首都客運",
+					"En": "Capital Bus Co., Ltd."
+				},
+				"OperatorCode": "CapitalBus",
+				"OperatorNo": "0913"
+			}
+		],
+		"AuthorityID": "004",
+		"ProviderID": "045",
+		"SubRoutes": [
+			{
+				"SubRouteUID": "TPE102530",
+				"SubRouteID": "102530",
+				"OperatorIDs": [
+					"200"
+				],
+				"SubRouteName": {
+					"Zh_tw": "21",
+					"En": "21(Straight)"
+				},
+				"Direction": 0,
+				"FirstBusTime": "0650",
+				"LastBusTime": "1740"
+			},
+			{
+				"SubRouteUID": "TPE102530",
+				"SubRouteID": "102530",
+				"OperatorIDs": [
+					"200"
+				],
+				"SubRouteName": {
+					"Zh_tw": "21",
+					"En": "21(Straight)"
+				},
+				"Direction": 1,
+				"FirstBusTime": "0650",
+				"LastBusTime": "1740"
+			}
+		],
+		"BusRouteType": 11,
+		"RouteName": {
+			"Zh_tw": "21",
+			"En": "21"
+		},
+		"DepartureStopNameZh": "捷運圓山站",
+		"DepartureStopNameEn": "MRT Yuanshan Sta.",
+		"DestinationStopNameZh": "捷運文德站",
+		"DestinationStopNameEn": "MRT Wende Sta.",
+		"TicketPriceDescriptionZh": "一段票",
+		"TicketPriceDescriptionEn": "1 segment",
+		"RouteMapImageUrl": "https://ebus.gov.taipei/MapOverview?nid=0100002100",
+		"City": "Taipei",
+		"CityCode": "TPE",
+		"UpdateTime": "2024-06-16T13:34:20+08:00",
+		"VersionID": 3532
+	},
+	{
+		"RouteUID": "TPE10261",
+		"RouteID": "10261",
+		"HasSubRoutes": true,
+		"Operators": [
+			{
+				"OperatorID": "200",
+				"OperatorName": {
+					"Zh_tw": "首都客運",
+					"En": "Capital Bus Co., Ltd."
+				},
+				"OperatorCode": "CapitalBus",
+				"OperatorNo": "0913"
+			}
+		],
+		"AuthorityID": "004",
+		"ProviderID": "045",
+		"SubRoutes": [
+			{
+				"SubRouteUID": "TPE10261",
+				"SubRouteID": "10261",
+				"OperatorIDs": [
+					"200"
+				],
+				"SubRouteName": {
+					"Zh_tw": "紅33",
+					"En": "R33"
+				},
+				"Direction": 0,
+				"FirstBusTime": "0900",
+				"LastBusTime": "1900",
+				"HolidayFirstBusTime": "0900",
+				"HolidayLastBusTime": "1900"
+			},
+			{
+				"SubRouteUID": "TPE10261",
+				"SubRouteID": "10261",
+				"OperatorIDs": [
+					"200"
+				],
+				"SubRouteName": {
+					"Zh_tw": "紅33",
+					"En": "R33"
+				},
+				"Direction": 1,
+				"FirstBusTime": "0900",
+				"LastBusTime": "1900",
+				"HolidayFirstBusTime": "0900",
+				"HolidayLastBusTime": "1900"
+			}
+		],
+		"BusRouteType": 11,
+		"RouteName": {
+			"Zh_tw": "紅33",
+			"En": "R33"
+		},
+		"DepartureStopNameZh": "葫蘆里",
+		"DepartureStopNameEn": "Hulu Li",
+		"DestinationStopNameZh": "聯合醫院中興院區(西寧)",
+		"DestinationStopNameEn": "Tpe Hospital Zhongxin Branch(Xining)",
+		"TicketPriceDescriptionZh": "一段票",
+		"TicketPriceDescriptionEn": "1 segment",
+		"RouteMapImageUrl": "https://ebus.gov.taipei/MapOverview?nid=0111003300",
+		"City": "Taipei",
+		"CityCode": "TPE",
+		"UpdateTime": "2024-06-16T13:34:20+08:00",
+		"VersionID": 3532
+	}
+]
