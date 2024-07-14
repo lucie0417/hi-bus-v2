@@ -1,17 +1,17 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaBars } from "react-icons/fa6";
-import { IoHeart, IoLocationSharp, IoPerson } from "react-icons/io5";
+import { IoGitBranch, IoLocationSharp, IoPerson } from "react-icons/io5";
 import logo from '../assets/images/M-logo-white.svg';
 
 interface ListItem {
-	icon: 'IoPerson' | 'IoHeart' | 'IoLocationSharp',
+	icon: 'IoPerson' | 'IoGitBranch' | 'IoLocationSharp',
 	title: string,
 }
 
 const icon = {
 	IoPerson,
-	IoHeart,
+	IoGitBranch,
 	IoLocationSharp,
 }
 
@@ -21,8 +21,8 @@ const list: ListItem[] = [
 		title: '會員登入'
 	},
 	{
-		icon: 'IoHeart',
-		title: '我的收藏'
+		icon: 'IoGitBranch',
+		title: '路線規劃'
 	},
 	{
 		icon: 'IoLocationSharp',

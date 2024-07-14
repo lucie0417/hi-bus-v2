@@ -27,6 +27,7 @@ module.exports = {
           dark: '#8C90AB',
           default: '#CACFDE',
           light: '#E7E9F2',
+          background: '#F8F8FB',
         },
 
         border: "hsl(var(--border))",

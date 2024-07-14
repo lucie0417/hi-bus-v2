@@ -44,7 +44,7 @@ const BusStatus = () => {
 				</div>
 
 				<Tabs defaultValue="account" >
-					<TabsList className="flex w-11/12 mx-auto my-3 bg-main-blue text-white font-medium">
+					<TabsList className="flex w-11/12 mx-auto my-3 font-medium">
 						<TabsTrigger value="account" className="w-1/2 data-[state=active]:bg-[#bac2ff]/50">往 重慶國中</TabsTrigger>
 						<TabsTrigger value="password" className="w-1/2 data-[state=active]:bg-[#bac2ff]/50">往 行政院</TabsTrigger>
 					</TabsList>
@@ -59,7 +59,6 @@ const BusStatus = () => {
 
 			{/* Desktop */}
 			<div className="hidden lg:flex lg:h-screen lg:overflow-y-hidden">
-
 				<div className="w-1/3 overflow-scroll">
 					<div className='flex items-center justify-between p-6'>
 						<div className='flex items-center'>
@@ -89,8 +88,8 @@ const BusStatus = () => {
 
 					<Tabs defaultValue="outbound" >
 						<TabsList className="flex w-11/12 mx-auto mb-3 bg-main-blue text-white font-medium">
-							<TabsTrigger value="outbound" className="w-1/2 data-[state=active]:bg-[#bac2ff]/40 data-[state=active]:text-white">往 重慶國中</TabsTrigger>
-							<TabsTrigger value="inbound" className="w-1/2 data-[state=active]:bg-[#bac2ff]/40 data-[state=active]:text-white">往 行政院</TabsTrigger>
+							<TabsTrigger value="outbound" className="w-1/2 data-[state=active]:bg-[#93c5fd]/40 data-[state=active]:text-white">往 重慶國中</TabsTrigger>
+							<TabsTrigger value="inbound" className="w-1/2 data-[state=active]:bg-[#93c5fd]/40 data-[state=active]:text-white">往 行政院</TabsTrigger>
 						</TabsList>
 						<TabsContent value="outbound">
 							<StatusList />
