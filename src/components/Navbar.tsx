@@ -60,10 +60,10 @@ const Navbar = () => {
 		{openMenu && (
 			<div className='absolute right-0 z-10 w-full border-dotted border-t border-white md:hidden'>
 				<ul className='bg-dark-blue text-white'>
-					{list.map((item, idx) => {
+					{list.map((item) => {
 						const IconComponent = icon[item.icon];
 						return (
-							<li key={idx} className='flex justify-center items-center p-3 text-lg
+							<li key={item.icon} className='flex justify-center items-center p-3 text-lg
 						hover:text-main-yellow'>
 								<IconComponent size={20} />
 								<span className='ml-1'>{item.title}</span>

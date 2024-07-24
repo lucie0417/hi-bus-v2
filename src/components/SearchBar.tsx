@@ -1,5 +1,5 @@
 // import { useState } from 'react';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import routeData from '../data/route.json';
 import cityData from '../data/cityDistrict.json';
@@ -8,13 +8,15 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue, } from "@/components/ui/select"
 
 
-
 const SearchBar = () => {
 	const panelData: string[] = ['紅', '綠', '橘', '藍', '棕', '黃', 'F', 'R', 'T', '幹線', '先導', '內科', '貓空', '市民', '南軟', '跳蛙', '夜間', '小'];
 	const matchRoute = false;
 	const [routeNumber, setRouteNumber] = useState('');
 	const [isPanelOpen, setIsPanelOpen] = useState(false);
-	const [favorite, setFavorite] = useState(false);
+
+	useEffect(() => {
+		console.log('useEffect routeNumber', routeNumber);
+	}, [routeNumber])
 
 	const handleInput = (e: any) => {
 		setRouteNumber(e.target.value);
@@ -45,7 +47,8 @@ const SearchBar = () => {
 						<input type="text" name="search" id="search"
 							placeholder="搜尋公車路線"
 							className="w-full text-nav-dark text-sm text-left pl-3 focus:outline-none"
-							onFocus={handleInput}
+							onChange={handleInput}
+							onFocus={() => setIsPanelOpen(true)}
 							value={routeNumber}
 						/>
 						<button className="text-main-blue text-lg pr-3 md:pr-5">
@@ -61,6 +64,7 @@ const SearchBar = () => {
 								<TabsTrigger value="favoriteRoutes" className="w-1/2 data-[state=active]:bg-[#bac2ff]/50">最愛路線</TabsTrigger>
 								<TabsTrigger value="buttonPanel" className="w-1/2 data-[state=active]:bg-[#bac2ff]/50">按鈕面板</TabsTrigger>
 							</TabsList>
+
 							<TabsContent value="favoriteRoutes">
 								<ul className="px-3 divide-y divide-gray-light bg-white">
 									<li className="flex justify-between items-center py-2">
@@ -75,8 +79,7 @@ const SearchBar = () => {
 											</p>
 										</div>
 										<div className='grid justify-items-center gap-1'>
-											<button onClick={() => setFavorite(!favorite)}
-												className={`${favorite ? 'text-main-green' : 'text-gray-default'}`}>
+											<button className='text-main-green'>
 												<IoHeart size={22} />
 											</button>
 											<p className='text-xs text-gray-dark'>台北</p>
@@ -94,8 +97,7 @@ const SearchBar = () => {
 											</p>
 										</div>
 										<div className='grid justify-items-center gap-1'>
-											<button onClick={() => setFavorite(!favorite)}
-												className={`${favorite ? 'text-main-green' : 'text-gray-default'}`}>
+											<button className='text-main-green'>
 												<IoHeart size={22} />
 											</button>
 											<p className='text-xs text-gray-dark'>台北</p>
@@ -106,8 +108,8 @@ const SearchBar = () => {
 
 							<TabsContent value="buttonPanel">
 								<div className='grid grid-cols-6 gap-1.5 p-2 rounded-lg md:gap-3'>
-									{panelData.map((unit: string, idx: number) => (
-										<button key={idx} className='text-sm px-1 py-2.5 border border-gray-dark rounded-full hover:bg-gray-100 md:text-lg md:p-2'>
+									{panelData.map((unit: string) => (
+										<button key={unit} value={unit} onClick={handleInput} className='text-sm px-1 py-2.5 border border-gray-dark rounded-full hover:bg-gray-100 md:text-lg md:p-2'>
 											{unit}
 										</button>
 									))}

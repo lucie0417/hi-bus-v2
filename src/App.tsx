@@ -2,6 +2,7 @@ import { createHashRouter, RouterProvider } from 'react-router-dom'
 import Home from "./pages/Home";
 import BusStatus from "./pages/BusStatus";
 import MyFavorite from './pages/MyFavorite';
+import Loading from './pages/Loading';
 
 const router = createHashRouter([
   {
@@ -15,6 +16,10 @@ const router = createHashRouter([
   {
     path: "/MyFavorite",
     element: <MyFavorite />
+  },
+  {
+    path: "/Loading",
+    element: <Loading />
   }
 ]);
 
