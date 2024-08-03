@@ -26,15 +26,14 @@ const SearchBar = () => {
 
 	return (
 		<>
-			<div className="z-10 mx-auto my-6 md:my-8">
-				<div className={`searchbox-container relative grid grid-cols-3 divide-x divide-gray-300 rounded-lg border border-main-blue md:py-1
-				 ${matchRoute ? `border-b-slate-200` : `border-b-main-blue`}`}>
+			<div className="z-10 my-4 md:my-8">
+				<div className="relative grid grid-cols-3 h-12 rounded-lg md:py-1">
 
 					<Select>
-						<SelectTrigger className="w-full h-full border-none ring-offset-0 text-sm text-center focus:ring-0 focus:ring-offset-0">
+						<SelectTrigger className="w-full h-full bg-gray-dark ring-offset-0 text-sm text-center text-gray-default border-none rounded-r-none focus:ring-0 focus:ring-offset-0">
 							<SelectValue placeholder="請選擇縣市" />
 						</SelectTrigger>
-						<SelectContent className=''>
+						<SelectContent>
 							{cityData.map((city: any) => (
 								<SelectItem value={city.CityName} key={city.CityEngName}>
 									{city.CityName}
@@ -43,33 +42,33 @@ const SearchBar = () => {
 						</SelectContent>
 					</Select>
 
-					<div className="relative flex col-span-2 rounded-r-lg">
+					<div className="relative flex col-span-2 bg-gray-dark rounded-r-lg">
 						<input type="text" name="search" id="search"
-							placeholder="搜尋公車路線"
-							className="w-full text-nav-dark text-sm text-left pl-3 focus:outline-none"
+							placeholder="今天想去哪呢？"
+							className="w-full bg-gray-dark text-gray-default text-sm text-left pl-3 focus:outline-none"
 							onChange={handleInput}
 							onFocus={() => setIsPanelOpen(true)}
 							value={routeNumber}
 						/>
-						<button className="text-main-blue text-lg pr-3 md:pr-5">
+						<button className="text-gray-default text-lg pr-3 md:pr-5">
 							<IoSearch size={20} />
 						</button>
 					</div>
 				</div>
 
 				{isPanelOpen && (
-					<div className='z-10 absolute left-1/2 transform -translate-x-1/2 searchbox-container p-1 border border-main-blue bg-white rounded-lg shadow'>
+					<div className='z-10 absolute left-1/2 transform -translate-x-1/2 p-1 bg-gray-dark rounded-lg drop-shadow'>
 						<Tabs defaultValue="favoriteRoutes">
-							<TabsList className="flex my-1 font-medium">
-								<TabsTrigger value="favoriteRoutes" className="w-1/2 data-[state=active]:bg-[#bac2ff]/50">最愛路線</TabsTrigger>
-								<TabsTrigger value="buttonPanel" className="w-1/2 data-[state=active]:bg-[#bac2ff]/50">按鈕面板</TabsTrigger>
+							<TabsList className="flex my-1 font-medium bg-gray-dark text-gray-default border border-beige">
+								<TabsTrigger value="favoriteRoutes" className="w-1/2 data-[state=active]:bg-beige">最愛路線</TabsTrigger>
+								<TabsTrigger value="buttonPanel" className="w-1/2 data-[state=active]:bg-beige">按鈕面板</TabsTrigger>
 							</TabsList>
 
 							<TabsContent value="favoriteRoutes">
-								<ul className="px-3 divide-y divide-gray-light bg-white">
+								<ul className="px-3 bg-gray-dark">
 									<li className="flex justify-between items-center py-2">
 										<div>
-											<h6 className="font-english font-semibold">
+											<h6 className="font-english font-semibold text-main-yellow">
 												218
 											</h6>
 											<p className="flex items-center text-sm">
@@ -79,7 +78,7 @@ const SearchBar = () => {
 											</p>
 										</div>
 										<div className='grid justify-items-center gap-1'>
-											<button className='text-main-green'>
+											<button className='text-main-red'>
 												<IoHeart size={22} />
 											</button>
 											<p className='text-xs text-gray-dark'>台北</p>
@@ -87,7 +86,7 @@ const SearchBar = () => {
 									</li>
 									<li className="flex justify-between items-center py-2">
 										<div>
-											<h6 className="font-english font-semibold">
+											<h6 className="font-english font-semibold text-main-yellow">
 												218
 											</h6>
 											<p className="flex items-center text-sm">
@@ -97,7 +96,7 @@ const SearchBar = () => {
 											</p>
 										</div>
 										<div className='grid justify-items-center gap-1'>
-											<button className='text-main-green'>
+											<button className='text-main-red'>
 												<IoHeart size={22} />
 											</button>
 											<p className='text-xs text-gray-dark'>台北</p>
@@ -109,7 +108,7 @@ const SearchBar = () => {
 							<TabsContent value="buttonPanel">
 								<div className='grid grid-cols-6 gap-1.5 p-2 rounded-lg md:gap-3'>
 									{panelData.map((unit: string) => (
-										<button key={unit} value={unit} onClick={handleInput} className='text-sm px-1 py-2.5 border border-gray-dark rounded-full hover:bg-gray-100 md:text-lg md:p-2'>
+										<button key={unit} value={unit} onClick={handleInput} className='text-sm px-1 py-2.5 border border-beige rounded-full hover:bg-beige hover:text-gray-dark md:text-lg md:p-2'>
 											{unit}
 										</button>
 									))}

@@ -18,16 +18,15 @@ module.exports = {
     },
     extend: {
       colors: {
-        'dark-blue': '#040D2E',
+        'black': '#262626',
         'main-blue': '#5468FF',
-        'main-green': '#00DCD1',
-        'main-yellow': '#FFC42D',
-        'main-red': '#FF6464',
+        'main-red': '#EB7A77',
+        'main-yellow': '#EDBA55',
+        'main-purple': '#5457A5',
+        'beige': '#F3E9D8',
         gray: {
-          dark: '#8C90AB',
-          default: '#CACFDE',
-          light: '#E7E9F2',
-          background: '#F8F8FB',
+          dark: '#333333',
+          default: '#91989F',
         },
 
         border: "hsl(var(--border))",
