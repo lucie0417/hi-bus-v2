@@ -4,7 +4,7 @@ const NearStops = () => {
 	return (
 		<div className='flex justify-center'>
 			<div className='w-full my-3'>
-				<h2 className='flex justify-between items-center font-medium my-2'>
+				<h2 className='flex justify-between items-center my-2 font-medium text-sm'>
 					附近站牌
 				</h2>
 				<div className='flex justify-between items-center my-2'>
@@ -17,7 +17,7 @@ const NearStops = () => {
 					</button>
 
 				</div>
-				<div className='h-52 rounded-lg bg-beige text-gray-dark'>
+				<div className='h-52 rounded-lg md:h-80 bg-beige text-gray-dark'>
 					This is MAP!
 				</div>
 			</div>

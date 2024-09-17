@@ -26,7 +26,7 @@ const SearchBar = () => {
 
 	return (
 		<>
-			<div className="z-10 my-4 md:my-8">
+			<div className="z-10 md:my-8">
 				<div className="relative grid grid-cols-3 h-12 rounded-lg md:py-1">
 
 					<Select>
@@ -44,7 +44,7 @@ const SearchBar = () => {
 
 					<div className="relative flex col-span-2 bg-gray-dark rounded-r-lg">
 						<input type="text" name="search" id="search"
-							placeholder="今天想去哪呢？"
+							placeholder="搜尋公車路線"
 							className="w-full bg-gray-dark text-gray-default text-sm text-left pl-3 focus:outline-none"
 							onChange={handleInput}
 							onFocus={() => setIsPanelOpen(true)}
@@ -54,70 +54,70 @@ const SearchBar = () => {
 							<IoSearch size={20} />
 						</button>
 					</div>
+
+
+					{isPanelOpen && (
+						<div className='z-10 absolute top-14 w-full p-1 bg-gray-dark rounded-lg drop-shadow-lg'>
+							<Tabs defaultValue="favoriteRoutes">
+								<TabsList className="flex my-1 font-medium bg-gray-dark text-gray-default border border-beige">
+									<TabsTrigger value="favoriteRoutes" className="w-1/2 data-[state=active]:bg-beige">收藏路線</TabsTrigger>
+									<TabsTrigger value="buttonPanel" className="w-1/2 data-[state=active]:bg-beige">按鈕面板</TabsTrigger>
+								</TabsList>
+
+								<TabsContent value="favoriteRoutes">
+									<ul className="px-3 bg-gray-dark">
+										<li className="flex justify-between items-center py-2">
+											<div>
+												<h6 className="font-english font-semibold text-main-yellow">
+													218
+												</h6>
+												<p className="flex items-center text-sm">
+													新北投
+													<span className='mx-1 text-main-green'><IoCode /></span>
+													萬華
+												</p>
+											</div>
+											<div className='grid justify-items-center gap-1'>
+												<button className='text-main-red'>
+													<IoHeart size={22} />
+												</button>
+												<p className='text-xs text-gray-dark'>台北</p>
+											</div>
+										</li>
+										<li className="flex justify-between items-center py-2">
+											<div>
+												<h6 className="font-english font-semibold text-main-yellow">
+													218
+												</h6>
+												<p className="flex items-center text-sm">
+													新北投
+													<span className='mx-1 text-main-green'><IoCode /></span>
+													萬華
+												</p>
+											</div>
+											<div className='grid justify-items-center gap-1'>
+												<button className='text-main-red'>
+													<IoHeart size={22} />
+												</button>
+												<p className='text-xs text-gray-dark'>台北</p>
+											</div>
+										</li>
+									</ul>
+								</TabsContent>
+
+								<TabsContent value="buttonPanel">
+									<div className='grid grid-cols-6 gap-1.5 p-2 rounded-lg md:gap-3'>
+										{panelData.map((unit: string) => (
+											<button key={unit} value={unit} onClick={handleInput} className='text-sm px-1 py-2.5 border border-beige rounded-full hover:bg-beige hover:text-gray-dark md:text-lg md:p-2'>
+												{unit}
+											</button>
+										))}
+									</div>
+								</TabsContent>
+							</Tabs>
+						</div>
+					)}
 				</div>
-
-				{isPanelOpen && (
-					<div className='z-10 absolute left-1/2 transform -translate-x-1/2 p-1 bg-gray-dark rounded-lg drop-shadow'>
-						<Tabs defaultValue="favoriteRoutes">
-							<TabsList className="flex my-1 font-medium bg-gray-dark text-gray-default border border-beige">
-								<TabsTrigger value="favoriteRoutes" className="w-1/2 data-[state=active]:bg-beige">最愛路線</TabsTrigger>
-								<TabsTrigger value="buttonPanel" className="w-1/2 data-[state=active]:bg-beige">按鈕面板</TabsTrigger>
-							</TabsList>
-
-							<TabsContent value="favoriteRoutes">
-								<ul className="px-3 bg-gray-dark">
-									<li className="flex justify-between items-center py-2">
-										<div>
-											<h6 className="font-english font-semibold text-main-yellow">
-												218
-											</h6>
-											<p className="flex items-center text-sm">
-												新北投
-												<span className='mx-1 text-main-green'><IoCode /></span>
-												萬華
-											</p>
-										</div>
-										<div className='grid justify-items-center gap-1'>
-											<button className='text-main-red'>
-												<IoHeart size={22} />
-											</button>
-											<p className='text-xs text-gray-dark'>台北</p>
-										</div>
-									</li>
-									<li className="flex justify-between items-center py-2">
-										<div>
-											<h6 className="font-english font-semibold text-main-yellow">
-												218
-											</h6>
-											<p className="flex items-center text-sm">
-												新北投
-												<span className='mx-1 text-main-green'><IoCode /></span>
-												萬華
-											</p>
-										</div>
-										<div className='grid justify-items-center gap-1'>
-											<button className='text-main-red'>
-												<IoHeart size={22} />
-											</button>
-											<p className='text-xs text-gray-dark'>台北</p>
-										</div>
-									</li>
-								</ul>
-							</TabsContent>
-
-							<TabsContent value="buttonPanel">
-								<div className='grid grid-cols-6 gap-1.5 p-2 rounded-lg md:gap-3'>
-									{panelData.map((unit: string) => (
-										<button key={unit} value={unit} onClick={handleInput} className='text-sm px-1 py-2.5 border border-beige rounded-full hover:bg-beige hover:text-gray-dark md:text-lg md:p-2'>
-											{unit}
-										</button>
-									))}
-								</div>
-							</TabsContent>
-						</Tabs>
-					</div>
-				)}
-
 				{matchRoute && (
 					<ul className='searchbox-container max-h-60 divide-y divide-slate-200'>
 						{routeData.map((route: any) => (

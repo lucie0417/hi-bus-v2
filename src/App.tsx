@@ -1,8 +1,9 @@
 import { createHashRouter, RouterProvider } from 'react-router-dom'
 import Home from "./pages/Home";
 import BusStatus from "./pages/BusStatus";
-import MyFavorite from './pages/MyFavorite';
+import Navigation from './pages/Navigation';
 import Loading from './pages/Loading';
+import MapNavigation from './pages/MapNavigation';
 
 const router = createHashRouter([
   {
@@ -10,15 +11,19 @@ const router = createHashRouter([
     element: <Home />,
   },
   {
-    path: "/BusStatus",
+    path: "/busStatus",
     element: <BusStatus />,
   },
   {
-    path: "/MyFavorite",
-    element: <MyFavorite />
+    path: "/navigation",
+    element: <Navigation />
   },
   {
-    path: "/Loading",
+    path: "/mapNavigation",
+    element: <MapNavigation />
+  },
+  {
+    path: "/loading",
     element: <Loading />
   }
 ]);
