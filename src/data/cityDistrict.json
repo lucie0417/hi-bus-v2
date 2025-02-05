@@ -1,5 +1,46 @@
 [
 	{
+		"CityName": "基隆市",
+		"CityEngName": "Keelung City",
+		"AreaList": [
+			{
+				"ZipCode": "200",
+				"AreaName": "仁愛區",
+				"AreaEngName": "Ren’ai Dist."
+			},
+			{
+				"ZipCode": "201",
+				"AreaName": "信義區",
+				"AreaEngName": "Xinyi Dist."
+			},
+			{
+				"ZipCode": "202",
+				"AreaName": "中正區",
+				"AreaEngName": "Zhongzheng Dist."
+			},
+			{
+				"ZipCode": "203",
+				"AreaName": "中山區",
+				"AreaEngName": "Zhongshan Dist."
+			},
+			{
+				"ZipCode": "204",
+				"AreaName": "安樂區",
+				"AreaEngName": "Anle Dist."
+			},
+			{
+				"ZipCode": "205",
+				"AreaName": "暖暖區",
+				"AreaEngName": "Nuannuan Dist."
+			},
+			{
+				"ZipCode": "206",
+				"AreaName": "七堵區",
+				"AreaEngName": "Qidu Dist."
+			}
+		]
+	},
+	{
 		"CityName": "臺北市",
 		"CityEngName": "Taipei City",
 		"AreaList": [
@@ -62,47 +103,6 @@
 				"ZipCode": "116",
 				"AreaName": "文山區",
 				"AreaEngName": "Wenshan Dist."
-			}
-		]
-	},
-	{
-		"CityName": "基隆市",
-		"CityEngName": "Keelung City",
-		"AreaList": [
-			{
-				"ZipCode": "200",
-				"AreaName": "仁愛區",
-				"AreaEngName": "Ren’ai Dist."
-			},
-			{
-				"ZipCode": "201",
-				"AreaName": "信義區",
-				"AreaEngName": "Xinyi Dist."
-			},
-			{
-				"ZipCode": "202",
-				"AreaName": "中正區",
-				"AreaEngName": "Zhongzheng Dist."
-			},
-			{
-				"ZipCode": "203",
-				"AreaName": "中山區",
-				"AreaEngName": "Zhongshan Dist."
-			},
-			{
-				"ZipCode": "204",
-				"AreaName": "安樂區",
-				"AreaEngName": "Anle Dist."
-			},
-			{
-				"ZipCode": "205",
-				"AreaName": "暖暖區",
-				"AreaEngName": "Nuannuan Dist."
-			},
-			{
-				"ZipCode": "206",
-				"AreaName": "七堵區",
-				"AreaEngName": "Qidu Dist."
 			}
 		]
 	},
@@ -258,110 +258,73 @@
 		]
 	},
 	{
-		"CityName": "連江縣",
-		"CityEngName": "Lienchiang County",
+		"CityName": "桃園市",
+		"CityEngName": "Taoyuan City",
 		"AreaList": [
 			{
-				"ZipCode": "209",
-				"AreaName": "南竿鄉",
-				"AreaEngName": "Nangan Township"
+				"ZipCode": "320",
+				"AreaName": "中壢區",
+				"AreaEngName": "Zhongli Dist."
 			},
 			{
-				"ZipCode": "210",
-				"AreaName": "北竿鄉",
-				"AreaEngName": "Beigan Township"
+				"ZipCode": "324",
+				"AreaName": "平鎮區",
+				"AreaEngName": "Pingzhen Dist."
 			},
 			{
-				"ZipCode": "211",
-				"AreaName": "莒光鄉",
-				"AreaEngName": "Juguang Township"
+				"ZipCode": "325",
+				"AreaName": "龍潭區",
+				"AreaEngName": "Longtan Dist."
 			},
 			{
-				"ZipCode": "212",
-				"AreaName": "東引鄉",
-				"AreaEngName": "Dongyin Township"
-			}
-		]
-	},
-	{
-		"CityName": "宜蘭縣",
-		"CityEngName": "Yilan County",
-		"AreaList": [
-			{
-				"ZipCode": "260",
-				"AreaName": "宜蘭市",
-				"AreaEngName": "Yilan City"
+				"ZipCode": "326",
+				"AreaName": "楊梅區",
+				"AreaEngName": "Yangmei Dist."
 			},
 			{
-				"ZipCode": "263",
-				"AreaName": "壯圍鄉",
-				"AreaEngName": "Zhuangwei Township"
+				"ZipCode": "327",
+				"AreaName": "新屋區",
+				"AreaEngName": "Xinwu Dist."
 			},
 			{
-				"ZipCode": "261",
-				"AreaName": "頭城鎮",
-				"AreaEngName": "Toucheng Township"
+				"ZipCode": "328",
+				"AreaName": "觀音區",
+				"AreaEngName": "Guanyin Dist."
 			},
 			{
-				"ZipCode": "262",
-				"AreaName": "礁溪鄉",
-				"AreaEngName": "Jiaoxi Township"
+				"ZipCode": "330",
+				"AreaName": "桃園區",
+				"AreaEngName": "Taoyuan Dist."
 			},
 			{
-				"ZipCode": "264",
-				"AreaName": "員山鄉",
-				"AreaEngName": "Yuanshan Township"
+				"ZipCode": "333",
+				"AreaName": "龜山區",
+				"AreaEngName": "Guishan Dist."
 			},
 			{
-				"ZipCode": "265",
-				"AreaName": "羅東鎮",
-				"AreaEngName": "Luodong Township"
+				"ZipCode": "334",
+				"AreaName": "八德區",
+				"AreaEngName": "Bade Dist."
 			},
 			{
-				"ZipCode": "266",
-				"AreaName": "三星鄉",
-				"AreaEngName": "Sanxing Township"
+				"ZipCode": "335",
+				"AreaName": "大溪區",
+				"AreaEngName": "Daxi Dist."
 			},
 			{
-				"ZipCode": "267",
-				"AreaName": "大同鄉",
-				"AreaEngName": "Datong Township"
+				"ZipCode": "336",
+				"AreaName": "復興區",
+				"AreaEngName": "Fuxing Dist."
 			},
 			{
-				"ZipCode": "268",
-				"AreaName": "五結鄉",
-				"AreaEngName": "Wujie Township"
+				"ZipCode": "337",
+				"AreaName": "大園區",
+				"AreaEngName": "Dayuan Dist."
 			},
 			{
-				"ZipCode": "269",
-				"AreaName": "冬山鄉",
-				"AreaEngName": "Dongshan Township"
-			},
-			{
-				"ZipCode": "270",
-				"AreaName": "蘇澳鎮",
-				"AreaEngName": "Su’ao Township"
-			},
-			{
-				"ZipCode": "272",
-				"AreaName": "南澳鄉",
-				"AreaEngName": "Nan’ao Township"
-			},
-			{
-				"ZipCode": "290",
-				"AreaName": "釣魚臺",
-				"AreaEngName": "Diaoyutai"
-			}
-		]
-	},
-	{
-		"CityName": "釣魚臺",
-		"CityEngName": "Diauyutai",
-		"AreaList": [
-			{
-				"ZipCode": "290",
-				"AreaName": "釣魚臺",
-				"AreaEngName": "Diaoyutai"
+				"ZipCode": "338",
+				"AreaName": "蘆竹區",
+				"AreaEngName": "Luzhu Dist."
 			}
 		]
 	},
@@ -454,77 +417,6 @@
 				"ZipCode": "315",
 				"AreaName": "峨眉鄉",
 				"AreaEngName": "Emei Township"
-			}
-		]
-	},
-	{
-		"CityName": "桃園市",
-		"CityEngName": "Taoyuan City",
-		"AreaList": [
-			{
-				"ZipCode": "320",
-				"AreaName": "中壢區",
-				"AreaEngName": "Zhongli Dist."
-			},
-			{
-				"ZipCode": "324",
-				"AreaName": "平鎮區",
-				"AreaEngName": "Pingzhen Dist."
-			},
-			{
-				"ZipCode": "325",
-				"AreaName": "龍潭區",
-				"AreaEngName": "Longtan Dist."
-			},
-			{
-				"ZipCode": "326",
-				"AreaName": "楊梅區",
-				"AreaEngName": "Yangmei Dist."
-			},
-			{
-				"ZipCode": "327",
-				"AreaName": "新屋區",
-				"AreaEngName": "Xinwu Dist."
-			},
-			{
-				"ZipCode": "328",
-				"AreaName": "觀音區",
-				"AreaEngName": "Guanyin Dist."
-			},
-			{
-				"ZipCode": "330",
-				"AreaName": "桃園區",
-				"AreaEngName": "Taoyuan Dist."
-			},
-			{
-				"ZipCode": "333",
-				"AreaName": "龜山區",
-				"AreaEngName": "Guishan Dist."
-			},
-			{
-				"ZipCode": "334",
-				"AreaName": "八德區",
-				"AreaEngName": "Bade Dist."
-			},
-			{
-				"ZipCode": "335",
-				"AreaName": "大溪區",
-				"AreaEngName": "Daxi Dist."
-			},
-			{
-				"ZipCode": "336",
-				"AreaName": "復興區",
-				"AreaEngName": "Fuxing Dist."
-			},
-			{
-				"ZipCode": "337",
-				"AreaName": "大園區",
-				"AreaEngName": "Dayuan Dist."
-			},
-			{
-				"ZipCode": "338",
-				"AreaName": "蘆竹區",
-				"AreaEngName": "Luzhu Dist."
 			}
 		]
 	},
@@ -983,6 +875,112 @@
 		]
 	},
 	{
+		"CityName": "雲林縣",
+		"CityEngName": "Yunlin County",
+		"AreaList": [
+			{
+				"ZipCode": "630",
+				"AreaName": "斗南鎮",
+				"AreaEngName": "Dounan Township"
+			},
+			{
+				"ZipCode": "631",
+				"AreaName": "大埤鄉",
+				"AreaEngName": "Dapi Township"
+			},
+			{
+				"ZipCode": "632",
+				"AreaName": "虎尾鎮",
+				"AreaEngName": "Huwei Township"
+			},
+			{
+				"ZipCode": "633",
+				"AreaName": "土庫鎮",
+				"AreaEngName": "Tuku Township"
+			},
+			{
+				"ZipCode": "634",
+				"AreaName": "褒忠鄉",
+				"AreaEngName": "Baozhong Township"
+			},
+			{
+				"ZipCode": "635",
+				"AreaName": "東勢鄉",
+				"AreaEngName": "Dongshi Township"
+			},
+			{
+				"ZipCode": "636",
+				"AreaName": "臺西鄉",
+				"AreaEngName": "Taixi Township"
+			},
+			{
+				"ZipCode": "637",
+				"AreaName": "崙背鄉",
+				"AreaEngName": "Lunbei Township"
+			},
+			{
+				"ZipCode": "638",
+				"AreaName": "麥寮鄉",
+				"AreaEngName": "Mailiao Township"
+			},
+			{
+				"ZipCode": "640",
+				"AreaName": "斗六市",
+				"AreaEngName": "Douliu City"
+			},
+			{
+				"ZipCode": "643",
+				"AreaName": "林內鄉",
+				"AreaEngName": "Linnei Township"
+			},
+			{
+				"ZipCode": "646",
+				"AreaName": "古坑鄉",
+				"AreaEngName": "Gukeng Township"
+			},
+			{
+				"ZipCode": "647",
+				"AreaName": "莿桐鄉",
+				"AreaEngName": "Citong Township"
+			},
+			{
+				"ZipCode": "648",
+				"AreaName": "西螺鎮",
+				"AreaEngName": "Xiluo Township"
+			},
+			{
+				"ZipCode": "649",
+				"AreaName": "二崙鄉",
+				"AreaEngName": "Erlun Township"
+			},
+			{
+				"ZipCode": "651",
+				"AreaName": "北港鎮",
+				"AreaEngName": "Beigang Township"
+			},
+			{
+				"ZipCode": "652",
+				"AreaName": "水林鄉",
+				"AreaEngName": "Shuilin Township"
+			},
+			{
+				"ZipCode": "653",
+				"AreaName": "口湖鄉",
+				"AreaEngName": "Kouhu Township"
+			},
+			{
+				"ZipCode": "654",
+				"AreaName": "四湖鄉",
+				"AreaEngName": "Sihu Township"
+			},
+			{
+				"ZipCode": "655",
+				"AreaName": "元長鄉",
+				"AreaEngName": "Yuanchang Township"
+			}
+		]
+	},
+	{
 		"CityName": "嘉義市",
 		"CityEngName": "Chiayi City",
 		"AreaList": [
@@ -1091,112 +1089,6 @@
 				"ZipCode": "625",
 				"AreaName": "布袋鎮",
 				"AreaEngName": "Budai Township"
-			}
-		]
-	},
-	{
-		"CityName": "雲林縣",
-		"CityEngName": "Yunlin County",
-		"AreaList": [
-			{
-				"ZipCode": "630",
-				"AreaName": "斗南鎮",
-				"AreaEngName": "Dounan Township"
-			},
-			{
-				"ZipCode": "631",
-				"AreaName": "大埤鄉",
-				"AreaEngName": "Dapi Township"
-			},
-			{
-				"ZipCode": "632",
-				"AreaName": "虎尾鎮",
-				"AreaEngName": "Huwei Township"
-			},
-			{
-				"ZipCode": "633",
-				"AreaName": "土庫鎮",
-				"AreaEngName": "Tuku Township"
-			},
-			{
-				"ZipCode": "634",
-				"AreaName": "褒忠鄉",
-				"AreaEngName": "Baozhong Township"
-			},
-			{
-				"ZipCode": "635",
-				"AreaName": "東勢鄉",
-				"AreaEngName": "Dongshi Township"
-			},
-			{
-				"ZipCode": "636",
-				"AreaName": "臺西鄉",
-				"AreaEngName": "Taixi Township"
-			},
-			{
-				"ZipCode": "637",
-				"AreaName": "崙背鄉",
-				"AreaEngName": "Lunbei Township"
-			},
-			{
-				"ZipCode": "638",
-				"AreaName": "麥寮鄉",
-				"AreaEngName": "Mailiao Township"
-			},
-			{
-				"ZipCode": "640",
-				"AreaName": "斗六市",
-				"AreaEngName": "Douliu City"
-			},
-			{
-				"ZipCode": "643",
-				"AreaName": "林內鄉",
-				"AreaEngName": "Linnei Township"
-			},
-			{
-				"ZipCode": "646",
-				"AreaName": "古坑鄉",
-				"AreaEngName": "Gukeng Township"
-			},
-			{
-				"ZipCode": "647",
-				"AreaName": "莿桐鄉",
-				"AreaEngName": "Citong Township"
-			},
-			{
-				"ZipCode": "648",
-				"AreaName": "西螺鎮",
-				"AreaEngName": "Xiluo Township"
-			},
-			{
-				"ZipCode": "649",
-				"AreaName": "二崙鄉",
-				"AreaEngName": "Erlun Township"
-			},
-			{
-				"ZipCode": "651",
-				"AreaName": "北港鎮",
-				"AreaEngName": "Beigang Township"
-			},
-			{
-				"ZipCode": "652",
-				"AreaName": "水林鄉",
-				"AreaEngName": "Shuilin Township"
-			},
-			{
-				"ZipCode": "653",
-				"AreaName": "口湖鄉",
-				"AreaEngName": "Kouhu Township"
-			},
-			{
-				"ZipCode": "654",
-				"AreaName": "四湖鄉",
-				"AreaEngName": "Sihu Township"
-			},
-			{
-				"ZipCode": "655",
-				"AreaName": "元長鄉",
-				"AreaEngName": "Yuanchang Township"
 			}
 		]
 	},
@@ -1598,94 +1490,6 @@
 		]
 	},
 	{
-		"CityName": "南海島",
-		"CityEngName": "Nanhai",
-		"AreaList": [
-			{
-				"ZipCode": "817",
-				"AreaName": "東沙群島",
-				"AreaEngName": "Dongsha Islands"
-			},
-			{
-				"ZipCode": "819",
-				"AreaName": "南沙群島",
-				"AreaEngName": "Nansha Islands"
-			}
-		]
-	},
-	{
-		"CityName": "澎湖縣",
-		"CityEngName": "Penghu County",
-		"AreaList": [
-			{
-				"ZipCode": "880",
-				"AreaName": "馬公市",
-				"AreaEngName": "Magong City"
-			},
-			{
-				"ZipCode": "881",
-				"AreaName": "西嶼鄉",
-				"AreaEngName": "Xiyu Township"
-			},
-			{
-				"ZipCode": "882",
-				"AreaName": "望安鄉",
-				"AreaEngName": "Wang’an Township"
-			},
-			{
-				"ZipCode": "883",
-				"AreaName": "七美鄉",
-				"AreaEngName": "Qimei Township"
-			},
-			{
-				"ZipCode": "884",
-				"AreaName": "白沙鄉",
-				"AreaEngName": "Baisha Township"
-			},
-			{
-				"ZipCode": "885",
-				"AreaName": "湖西鄉",
-				"AreaEngName": "Huxi Township"
-			}
-		]
-	},
-	{
-		"CityName": "金門縣",
-		"CityEngName": "Kinmen County",
-		"AreaList": [
-			{
-				"ZipCode": "890",
-				"AreaName": "金沙鎮",
-				"AreaEngName": "Jinsha Township"
-			},
-			{
-				"ZipCode": "891",
-				"AreaName": "金湖鎮",
-				"AreaEngName": "Jinhu Township"
-			},
-			{
-				"ZipCode": "892",
-				"AreaName": "金寧鄉",
-				"AreaEngName": "Jinning Township"
-			},
-			{
-				"ZipCode": "893",
-				"AreaName": "金城鎮",
-				"AreaEngName": "Jincheng Township"
-			},
-			{
-				"ZipCode": "894",
-				"AreaName": "烈嶼鄉",
-				"AreaEngName": "Lieyu Township"
-			},
-			{
-				"ZipCode": "896",
-				"AreaName": "烏坵鄉",
-				"AreaEngName": "Wuqiu Township"
-			}
-		]
-	},
-	{
 		"CityName": "屏東縣",
 		"CityEngName": "Pingtung County",
 		"AreaList": [
@@ -1857,6 +1661,148 @@
 		]
 	},
 	{
+		"CityName": "宜蘭縣",
+		"CityEngName": "Yilan County",
+		"AreaList": [
+			{
+				"ZipCode": "260",
+				"AreaName": "宜蘭市",
+				"AreaEngName": "Yilan City"
+			},
+			{
+				"ZipCode": "263",
+				"AreaName": "壯圍鄉",
+				"AreaEngName": "Zhuangwei Township"
+			},
+			{
+				"ZipCode": "261",
+				"AreaName": "頭城鎮",
+				"AreaEngName": "Toucheng Township"
+			},
+			{
+				"ZipCode": "262",
+				"AreaName": "礁溪鄉",
+				"AreaEngName": "Jiaoxi Township"
+			},
+			{
+				"ZipCode": "264",
+				"AreaName": "員山鄉",
+				"AreaEngName": "Yuanshan Township"
+			},
+			{
+				"ZipCode": "265",
+				"AreaName": "羅東鎮",
+				"AreaEngName": "Luodong Township"
+			},
+			{
+				"ZipCode": "266",
+				"AreaName": "三星鄉",
+				"AreaEngName": "Sanxing Township"
+			},
+			{
+				"ZipCode": "267",
+				"AreaName": "大同鄉",
+				"AreaEngName": "Datong Township"
+			},
+			{
+				"ZipCode": "268",
+				"AreaName": "五結鄉",
+				"AreaEngName": "Wujie Township"
+			},
+			{
+				"ZipCode": "269",
+				"AreaName": "冬山鄉",
+				"AreaEngName": "Dongshan Township"
+			},
+			{
+				"ZipCode": "270",
+				"AreaName": "蘇澳鎮",
+				"AreaEngName": "Su’ao Township"
+			},
+			{
+				"ZipCode": "272",
+				"AreaName": "南澳鄉",
+				"AreaEngName": "Nan’ao Township"
+			},
+			{
+				"ZipCode": "290",
+				"AreaName": "釣魚臺",
+				"AreaEngName": "Diaoyutai"
+			}
+		]
+	},
+	{
+		"CityName": "花蓮縣",
+		"CityEngName": "Hualien County",
+		"AreaList": [
+			{
+				"ZipCode": "970",
+				"AreaName": "花蓮市",
+				"AreaEngName": "Hualien City"
+			},
+			{
+				"ZipCode": "971",
+				"AreaName": "新城鄉",
+				"AreaEngName": "Xincheng Township"
+			},
+			{
+				"ZipCode": "972",
+				"AreaName": "秀林鄉",
+				"AreaEngName": "Xiulin Township"
+			},
+			{
+				"ZipCode": "973",
+				"AreaName": "吉安鄉",
+				"AreaEngName": "Ji’an Township"
+			},
+			{
+				"ZipCode": "974",
+				"AreaName": "壽豐鄉",
+				"AreaEngName": "Shoufeng Township"
+			},
+			{
+				"ZipCode": "975",
+				"AreaName": "鳳林鎮",
+				"AreaEngName": "Fenglin Township"
+			},
+			{
+				"ZipCode": "976",
+				"AreaName": "光復鄉",
+				"AreaEngName": "Guangfu Township"
+			},
+			{
+				"ZipCode": "977",
+				"AreaName": "豐濱鄉",
+				"AreaEngName": "Fengbin Township"
+			},
+			{
+				"ZipCode": "978",
+				"AreaName": "瑞穗鄉",
+				"AreaEngName": "Ruisui Township"
+			},
+			{
+				"ZipCode": "979",
+				"AreaName": "萬榮鄉",
+				"AreaEngName": "Wanrong Township"
+			},
+			{
+				"ZipCode": "981",
+				"AreaName": "玉里鎮",
+				"AreaEngName": "Yuli Township"
+			},
+			{
+				"ZipCode": "982",
+				"AreaName": "卓溪鄉",
+				"AreaEngName": "Zhuoxi Township"
+			},
+			{
+				"ZipCode": "983",
+				"AreaName": "富里鄉",
+				"AreaEngName": "Fuli Township"
+			}
+		]
+	},
+	{
 		"CityName": "臺東縣",
 		"CityEngName": "Taitung County",
 		"AreaList": [
@@ -1943,73 +1889,74 @@
 		]
 	},
 	{
-		"CityName": "花蓮縣",
-		"CityEngName": "Hualien County",
+		"CityName": "澎湖縣",
+		"CityEngName": "Penghu County",
 		"AreaList": [
 			{
-				"ZipCode": "970",
-				"AreaName": "花蓮市",
-				"AreaEngName": "Hualien City"
+				"ZipCode": "880",
+				"AreaName": "馬公市",
+				"AreaEngName": "Magong City"
 			},
 			{
-				"ZipCode": "971",
-				"AreaName": "新城鄉",
-				"AreaEngName": "Xincheng Township"
+				"ZipCode": "881",
+				"AreaName": "西嶼鄉",
+				"AreaEngName": "Xiyu Township"
 			},
 			{
-				"ZipCode": "972",
-				"AreaName": "秀林鄉",
-				"AreaEngName": "Xiulin Township"
+				"ZipCode": "882",
+				"AreaName": "望安鄉",
+				"AreaEngName": "Wang’an Township"
 			},
 			{
-				"ZipCode": "973",
-				"AreaName": "吉安鄉",
-				"AreaEngName": "Ji’an Township"
+				"ZipCode": "883",
+				"AreaName": "七美鄉",
+				"AreaEngName": "Qimei Township"
 			},
 			{
-				"ZipCode": "974",
-				"AreaName": "壽豐鄉",
-				"AreaEngName": "Shoufeng Township"
+				"ZipCode": "884",
+				"AreaName": "白沙鄉",
+				"AreaEngName": "Baisha Township"
 			},
 			{
-				"ZipCode": "975",
-				"AreaName": "鳳林鎮",
-				"AreaEngName": "Fenglin Township"
+				"ZipCode": "885",
+				"AreaName": "湖西鄉",
+				"AreaEngName": "Huxi Township"
+			}
+		]
+	},
+	{
+		"CityName": "金門縣",
+		"CityEngName": "Kinmen County",
+		"AreaList": [
+			{
+				"ZipCode": "890",
+				"AreaName": "金沙鎮",
+				"AreaEngName": "Jinsha Township"
 			},
 			{
-				"ZipCode": "976",
-				"AreaName": "光復鄉",
-				"AreaEngName": "Guangfu Township"
+				"ZipCode": "891",
+				"AreaName": "金湖鎮",
+				"AreaEngName": "Jinhu Township"
 			},
 			{
-				"ZipCode": "977",
-				"AreaName": "豐濱鄉",
-				"AreaEngName": "Fengbin Township"
+				"ZipCode": "892",
+				"AreaName": "金寧鄉",
+				"AreaEngName": "Jinning Township"
 			},
 			{
-				"ZipCode": "978",
-				"AreaName": "瑞穗鄉",
-				"AreaEngName": "Ruisui Township"
+				"ZipCode": "893",
+				"AreaName": "金城鎮",
+				"AreaEngName": "Jincheng Township"
 			},
 			{
-				"ZipCode": "979",
-				"AreaName": "萬榮鄉",
-				"AreaEngName": "Wanrong Township"
+				"ZipCode": "894",
+				"AreaName": "烈嶼鄉",
+				"AreaEngName": "Lieyu Township"
 			},
 			{
-				"ZipCode": "981",
-				"AreaName": "玉里鎮",
-				"AreaEngName": "Yuli Township"
-			},
-			{
-				"ZipCode": "982",
-				"AreaName": "卓溪鄉",
-				"AreaEngName": "Zhuoxi Township"
-			},
-			{
-				"ZipCode": "983",
-				"AreaName": "富里鄉",
-				"AreaEngName": "Fuli Township"
+				"ZipCode": "896",
+				"AreaName": "烏坵鄉",
+				"AreaEngName": "Wuqiu Township"
 			}
 		]
 	}

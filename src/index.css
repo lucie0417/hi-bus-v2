@@ -72,6 +72,7 @@
     }
     body {
       @apply bg-background text-foreground;
+      @apply tracking-wide;
       font-optical-sizing: auto;
       font-weight: 300;
       font-style: normal;
@@ -80,12 +81,4 @@
 
 .english-font{
   @apply font-english
-}
-
-.searchbox-container {
-  @apply mx-auto md:w-2/3 lg:w-1/2;
-}
-
-body {
-  @apply text-beige;
 }

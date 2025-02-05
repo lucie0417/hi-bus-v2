@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { IoArrowBack } from "react-icons/io5";
+import { IoArrowBack, IoArrowForward } from "react-icons/io5";
 import { LiaExchangeAltSolid, LiaEllipsisVSolid } from "react-icons/lia";
 import { TbTriangleFilled, TbSquareFilled } from "react-icons/tb";
 
@@ -14,7 +14,7 @@ const MapNavigation = () => {
 					<p className='text-center font-medium'>市區公車路線</p>
 				</div>
 
-				<div className='flex justify-between items-center '>
+				<div className='flex justify-between items-center'>
 					<div className='grid gap-3 w-full'>
 						<div className='flex items-center justify-center'>
 							<TbSquareFilled size={18} fill='#EDBA55' />
@@ -29,9 +29,35 @@ const MapNavigation = () => {
 							<input type="text" placeholder="搜尋目的地" className='mx-3 w-full text-sm bg-transparent outline-none' />
 						</div>
 					</div>
-					<button className="flex justify-center items-center p-2 rotate-90 rounded-sm border border-beige text-beige bg-gray-dark hover:bg-main-yellow hover:text-gray-dark">
-						<span><LiaExchangeAltSolid size={20} /></span>
+					<button className="flex justify-center items-center p-2 rotate-90 rounded-lg border border-beige text-beige bg-gray-dark hover:bg-main-yellow hover:text-gray-dark">
+						<span><LiaExchangeAltSolid size={16} /></span>
 					</button>
+				</div>
+
+				<div className='bg-gray-dark/50 rounded-lg p-3'>
+					<h5>找到 2 個路線方案</h5>
+					<ul className='divide-y divide-beige'>
+						<li className='flex justify-between items-center text-sm py-3'>
+							<p className='grid justify-items-start'>
+								<span>302</span>
+								<span className='flex items-center text-gray-default my-2'>
+									老松國小
+									<IoArrowForward />
+									關渡
+								</span>
+							</p>
+						</li>
+						<li className='flex justify-between items-center text-sm py-3'>
+							<p className='grid justify-items-start'>
+								<span>302</span>
+								<span className='flex items-center text-gray-default my-2'>
+									老松國小
+									<IoArrowForward />
+									關渡
+								</span>
+							</p>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>

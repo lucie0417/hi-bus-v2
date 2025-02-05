@@ -1,49 +1,61 @@
-import { useState } from "react";
-import { GoBell, GoBellFill, GoBellSlash, GoClock } from "react-icons/go";
-import { FaDirections, FaBus } from "react-icons/fa";
+import { Badge } from "@/components/ui/badge"
+import { IoChevronBack } from "react-icons/io5";
 
-const RouteInfoCard = () => {
-	const [notifyOn, setNotifyOn] = useState(true);
+type RouteInfoCardProps = {
+	onBack: () => void;
+}
 
+const RouteInfoCard = ({ onBack }: RouteInfoCardProps) => {
 	return (
 		<>
-			<div className='w-32 h-36 p-3 mr-3 my-3 bg-gray-dark rounded-lg shrink-0 text-gray-default text-sm md:hidden'>
-				<p className='flex justify-between items-center text-main-yellow text-lg font-medium'>
-					<span className='text-beige'>302</span>
-					{notifyOn ? <GoBellFill /> : <GoBell />}
-				</p>
-				<p className='flex items-center my-2 '>
-					<FaDirections />
-					<span className='text-beige ml-2 mr-1'>新北投</span>
-					方向
-				</p>
-				<p className='flex items-center my-2'>
-					<GoClock />
-					<span className='text-beige ml-2 mr-1'>6</span>
-					分鐘
-				</p>
-				<p className='flex items-center my-2'>
-					<FaBus />
-					<span className='text-beige ml-2'>263-FT</span>
-				</p>
-			</div>
+			<div className="absolute top-4 left-4 w-1/2 bg-white rounded-md lg:w-1/3">
+				<div className="flex justify-between items-center p-3 bg-green300 text-white text-xl font-medium rounded-t-md">
+					<button onClick={onBack}
+						className="text-white">
+						<IoChevronBack size="24" />
+					</button>
+					<p className="tracking-wider">302</p>
+					<p></p>
+				</div>
 
-			{/* Tablet */}
-			<div className='hidden md:block w-40 h-32 mr-3 my-3 p-4 bg-gray-dark rounded-lg shrink-0 text-gray-default'>
-				<p className='flex justify-between items-center text-main-yellow text-lg font-medium'>
-					<span className='text-beige'>302</span>
-					{notifyOn ? <GoBellFill /> : <GoBellSlash />}
-				</p>
-				<p className='flex items-center my-2'>
-					<FaDirections />
-					<span className='text-beige ml-2 mr-1'>新北投</span>
-					方向
-				</p>
-				<p className='flex items-center my-2'>
-					<GoClock />
-					<span className='text-beige ml-2 mr-1'>6</span>
-					分鐘
-				</p>
+				<div className="p-2">
+					<Badge>起迄站</Badge>
+					<p>萬華--關渡宮</p>
+				</div>
+				<div className="p-2">
+					<Badge>收費方式</Badge>
+					<p>萬華--關渡宮</p>
+					<p>緩衝區</p>
+					<p>士林-士林簡易庭</p>
+				</div>
+				<div className="p-2">
+					<Badge>發車時間</Badge>
+					<p>平日<br />
+						06:00-23:00
+					</p>
+					<p>假日<br />
+						07:00-23:00
+					</p>
+				</div>
+				<div className="p-2">
+					<Badge>發車間距</Badge>
+					<p>平日<br />
+						05:00-06:00 每15分一班<br />
+						05:00-06:00 每15分一班<br />
+						05:00-06:00 每15分一班
+					</p>
+					<p>假日<br />
+						07:00-23:00 每30分一班<br />
+						07:00-23:00 每30分一班<br />
+						07:00-23:00 每30分一班
+					</p>
+				</div>
+				<div className="p-2">
+					<Badge>業者資訊</Badge>
+					<p>
+						臺北客運<br />
+					</p>
+				</div>
 			</div>
 		</>
 	)

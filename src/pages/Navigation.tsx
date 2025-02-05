@@ -30,8 +30,8 @@ const Navigation = () => {
 						<input type="text" placeholder="搜尋目的地" className='mx-3 w-full text-sm bg-black outline-none' />
 					</div>
 				</div>
-				<button className="flex justify-center items-center p-2 rotate-90 rounded-sm border border-beige text-beige bg-gray-dark hover:bg-main-yellow hover:text-gray-dark">
-					<span><LiaExchangeAltSolid size={20} /></span>
+				<button className="flex justify-center items-center p-2 rotate-90 rounded-lg border border-beige text-beige bg-gray-dark hover:bg-main-yellow hover:text-gray-dark">
+					<span><LiaExchangeAltSolid size={16} /></span>
 				</button>
 			</div>
 
