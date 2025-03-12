@@ -6,14 +6,15 @@ import logo from '../assets/images/DaBus-logo-text.svg';
 
 type listItem = {
 	title: string,
-	icon: JSX.Element
+	icon: JSX.Element,
+	linkTo: string,
 }
 
 const list: listItem[] = [
-	{ 'title': '找公車', icon: <FaBus size="20" /> },
-	{ 'title': '找客運', icon: <FaRoad size="20" /> },
-	{ 'title': '找單車', icon: <IoBicycleSharp size="20" /> },
-	{ 'title': '個人設定', icon: <IoSettingsSharp size="20" /> }
+	{ 'title': '找公車', linkTo: '/searchBus', icon: <FaBus size="20" /> },
+	{ 'title': '找客運', linkTo: '/searchInterCityBus', icon: <FaRoad size="20" /> },
+	{ 'title': '找單車', linkTo: '/searchBike', icon: <IoBicycleSharp size="20" /> },
+	{ 'title': '個人設定', linkTo: '/busStatus', icon: <IoSettingsSharp size="20" /> }
 ];
 
 
@@ -46,7 +47,7 @@ const Navbar = () => {
 					<ul className='flex space-x-6'>
 						{list.map((item, idx) => (
 							<li key={idx}>
-								<Link to={'/'} className='flex justify-center items-center py-3 text-lg hover:text-green400'>
+								<Link to={item.linkTo} className='flex justify-center items-center py-3 text-lg hover:text-green400'>
 									<p className='mr-1'>{item.title}</p>
 									{item.icon}
 								</Link>

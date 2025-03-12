@@ -5,9 +5,9 @@ import { Badge } from "@/components/ui/badge";
 
 const StatusList = () => {
 	return (
-		<ul className="text-gray500 px-4 py-2 overflow-y-auto md:h-96 xl:h-[560px]">
-			{busStopInfo[0].Stops.map((stop: any) => (
-				<li className="relative flex items-center py-3.5">
+		<ul className="text-gray500 px-4 pt-2 pb-[120px] overflow-y-auto h-[480px] md:h-96 xl:h-[560px]">
+			{busStopInfo[0].Stops.map((stop: any, index: number) => (
+				<li key={index} className="relative flex items-center py-3">
 					<Badge variant="outline" className="border-green400 text-green400">
 						2分
 					</Badge>
@@ -15,13 +15,18 @@ const StatusList = () => {
 						{stop.StopName.Zh_tw}
 					</p>
 
+					{/* 公車與無障礙標誌 */}
 					<Badge className="shrink-0 flex items-center gap-1">
 						<img src={busIcon} alt="BusIcon" />
 						<img src={wheelIcon} alt="wheelchair Icon" />
 						<span>712-SW</span>
 					</Badge>
 
-					<div className="absolute -right-2 top-1/2 w-0.5 h-16 bg-green300 md:right-2"></div>
+					{/*隱藏最後一個站點連接線 */}
+					{index !== busStopInfo[0].Stops.length - 1 && (
+						<div className="absolute -right-2 top-1/2 w-0.5 h-16 bg-green300 md:right-2"></div>
+					)}
+
 					<div className="absolute -right-[11px] md:right-[5px]">
 						{/* 未到站 */}
 						<span className="relative">

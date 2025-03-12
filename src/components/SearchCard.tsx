@@ -4,7 +4,8 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card"
 import { IoFunnel, IoSearch } from "react-icons/io5";
-import city from "../data/cityList.json"
+import city from "../data/cityList.json";
+import busImg from "../assets/images/bus.png"
 
 const SearchCard = () => {
 	const [showCard, setShowCard] = useState(false);
@@ -12,7 +13,7 @@ const SearchCard = () => {
 
 	return (
 		<>
-			<div className="absolute top-4 left-4 w-1/2 bg-white rounded-md lg:w-1/3">
+			<div className="absolute top-4 left-4 w-1/2 bg-white rounded-md lg:w-1/3 lg:h-5/6">
 				<div className="flex justify-start items-center bg-green300 p-3 rounded-t-md">
 					<Input type="text" className="w-2/3 mx-2 bg-green100 text-green400 placeholder-green400 font-normal" placeholder="搜尋公車路線或站牌" />
 					<Button type="button" size="sm"
@@ -45,7 +46,16 @@ const SearchCard = () => {
 					</Card>
 				)}
 
-				<StatusList />
+				<div className="w-full my-10">
+					<img src={busImg} alt="" className="w-1/3 mx-auto opacity-75" />
+					<p className="text-xs my-3 text-center">輸入公車路線或站牌找看看吧！</p>
+				</div>
+
+				<div>
+					<ul>
+						<li></li>
+					</ul>
+				</div>
 			</div>
 		</>
 	)

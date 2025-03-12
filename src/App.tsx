@@ -1,6 +1,6 @@
 import { createHashRouter, RouterProvider } from 'react-router-dom'
 import Home from "./pages/Home";
-import BusStatus from "./pages/BusStatus";
+import SearchBus from "./pages/SearchBus";
 import Navigation from './pages/Navigation';
 import Loading from './pages/Loading';
 import MapNavigation from './pages/MapNavigation';
@@ -11,15 +11,15 @@ const router = createHashRouter([
     element: <Home />,
   },
   {
-    path: "/busStatus",
-    element: <BusStatus />,
+    path: "/searchBus",
+    element: <SearchBus />,
   },
   {
-    path: "/navigation",
+    path: "/searchInterCityBus",
     element: <Navigation />
   },
   {
-    path: "/mapNavigation",
+    path: "/searchBike",
     element: <MapNavigation />
   },
   {

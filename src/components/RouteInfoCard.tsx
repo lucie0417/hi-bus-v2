@@ -1,23 +1,10 @@
 import { Badge } from "@/components/ui/badge"
-import { IoChevronBack } from "react-icons/io5";
 
-type RouteInfoCardProps = {
-	onBack: () => void;
-}
+const RouteInfoCard = () => {
 
-const RouteInfoCard = ({ onBack }: RouteInfoCardProps) => {
 	return (
 		<>
-			<div className="absolute top-4 left-4 w-1/2 bg-white rounded-md lg:w-1/3">
-				<div className="flex justify-between items-center p-3 bg-green300 text-white text-xl font-medium rounded-t-md">
-					<button onClick={onBack}
-						className="text-white">
-						<IoChevronBack size="24" />
-					</button>
-					<p className="tracking-wider">302</p>
-					<p></p>
-				</div>
-
+			<div className="p-4 overflow-y-auto pb-32 h-[480px] md:h-96 xl:h-[560px]">
 				<div className="p-2">
 					<Badge>起迄站</Badge>
 					<p>萬華--關渡宮</p>

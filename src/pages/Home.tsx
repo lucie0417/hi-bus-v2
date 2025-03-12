@@ -1,25 +1,29 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
-// import SearchCard from "@/components/SearchCard";
-import RouteStatusCard from "@/components/RouteStatusCard";
-import RouteInfoCard from "@/components/RouteInfoCard";
+import SearchCard from "@/components/SearchCard";
+// import RouteStatusCard from "@/components/RouteStatusCard";
+// import RouteInfoCard from "@/components/RouteInfoCard";
 import WeatherBox from "@/components/WeatherBox";
 import PositionNotify from "@/components/PositionNotify";
+import Footer from "@/components/Footer";
 import { FaRoad, FaBus } from "react-icons/fa6";
 import { IoBicycleSharp, IoSettingsSharp } from "react-icons/io5";
 
 
 type listItem = {
 	title: string,
-	icon: JSX.Element
+	icon: JSX.Element,
+	route?: string,
 }
 
 const Home = () => {
+	const navigate = useNavigate();
 	const [openMap, setOpenMap] = useState(true);
 	const [showInfoCard, setShowInfoCard] = useState(false);
 
 	const list: listItem[] = [
-		{ 'title': '找公車', icon: <FaBus size="52" /> },
+		{ 'title': '找公車', icon: <FaBus size="52" />, route: '/searchBus' },
 		{ 'title': '找客運', icon: <FaRoad size="52" /> },
 		{ 'title': '找單車', icon: <IoBicycleSharp size="52" /> },
 		{ 'title': '個人設定', icon: <IoSettingsSharp size="48" /> }
@@ -33,7 +37,9 @@ const Home = () => {
 
 				<div className='grid grid-cols-2 gap-4'>
 					{list.map((item, idx) => (
-						<div key={idx} className='grid justify-items-center content-center h-44 bg-white text-green400 rounded-md hover:bg-green100'>
+						<div key={idx}
+							onClick={() => navigate(item.route)}
+							className='grid justify-items-center content-center h-44 bg-white text-green400 rounded-md hover:bg-green100'>
 							{item.icon}
 							<p className="py-2 text-lg font-medium text-gray500">{item.title}</p>
 						</div>
@@ -47,17 +53,12 @@ const Home = () => {
 					我是地圖
 				</div>
 
-				{/* <SearchCard /> */}
-				{showInfoCard ? (<RouteInfoCard onBack={() => setShowInfoCard(false)} />) : (<RouteStatusCard onInfoClick={() => setShowInfoCard(true)} />)}
+				<SearchCard />
+				{/* {showInfoCard ? (<RouteInfoCard onBack={()=>setShowInfoCard(false)}/>) : (<RouteStatusCard onInfoClick={() => setShowInfoCard(true)} />)} */}
 
 			</div>
 
-			<footer className="fixed bottom-0 flex text-center justify-center w-full h-10 bg-green300">
-				<p className="text-xs text-white leading-5">
-					© Da公車 | Developed by Lucie <br />
-					此作品集僅供展示，非用於商業用途。
-				</p>
-			</footer>
+			<Footer />
 		</div>
 	</>
 	)
